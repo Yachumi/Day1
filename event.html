@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <style>
+        #p1
+        {
+            text-align: center;
+            background-color: lightblue;
+        }
+        #p2
+        {
+            text-align: center;
+            background-color: lightcoral;
+        }
+        #p3
+        {
+            text-align: center;
+            width: 500px;
+            border: 20px solid green;
+            background-color: palegoldenrod;
+            margin: auto;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div id="p1">
+            <h1>Pulak Trivedi</h1>
+            <p>Registration Number:202000107</p>
+        </div>
+        <div id="p2">
+            <h3 onmouseover="largename(this)" onmouseout="normname(this) ">Jehan Daruvala</h3>
+            <img onmouseover="largePic(this)" onmouseout="normPic(this)" src="jehan.jpg" alt="Jehan Daruvala" height="391" width="600">
+            <h3 onmouseover="largename(this)" onmouseout="normname(this) ">Indian Racer in Formula 2</h3>
+        </div>
+        <script>
+            function largePic(x)
+            {
+                x.style.width="1200px";
+                x.style.height="782px";
+            }
+            function normPic(x)
+            {
+                x.style.width="600px";
+                x.style.height="391px";
+            }
+            function largename(x)
+            {
+                x.style.fontSize="30px";
+            }
+            function normname(x)
+            {
+                x.style.fontSize="20px";
+            }
+        </script>
+        <div id="p3">
+            <p>pulak_202000107@smit.smu.edu.in</p>
+        </div>
+    </body>
+</html>
